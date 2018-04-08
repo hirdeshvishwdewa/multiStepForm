@@ -1,10 +1,28 @@
-# multiStepForm
+# multiStepForm jQuery Plugin
+
 A simple but great jQuery plugin to create a multi-step form.
 
-#Steps for how to use this plugin.
-#Step 1. Simply include multistep-form.js.
-#Step 2. Make sure you have added classes .tab , .previous , .next and .step inside your <form>. 
-for example:
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+```
+You should have latest version of jQuery included in your page inorder to make this plugin work.
+```
+
+##Steps for how to install and use this plugin.
+
+###Step 1. 
+Simply include multistep-form.js.
+
+###Step 2. 
+Make sure you have added .tab , .previous , .next .step and .submit classes inside your `<form>` to appropriate tags. 
+
+####Simple Example:
+
+```
 <pre>
 <form id="myForm" action="/register.php">
 	  <h1>Register:</h1>
@@ -33,8 +51,12 @@ for example:
   </div>
   </form>
 </pre>
-Step 3. Simply call multiStepForm() on your form id, and thats it!
+```
+
+###Step 3. Simply call multiStepForm() on your form id, and thats it!
+
 For example:
+```
 $("#myForm").multiStepForm(
 {
   // defaultStep:0,
@@ -43,3 +65,16 @@ $("#myForm").multiStepForm(
   }
 }
 ).navigateTo(0);
+```
+
+## About Author
+
+* **Hirdesh Vishwdewa** - *I work on PHP, jQuery, Angular*
+
+## License
+
+This project is licensed under the MIT License.
+
+##Acknowledgments
+
+* Inspiration form w3schools.com's multistep form example
