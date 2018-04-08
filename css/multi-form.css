@@ -22,3 +22,5 @@ button:hover {opacity: 0.8; }
 .step.active {opacity: 1; background-color: #69c769;}
 
 .step.finish {background-color: #4CAF50; }
+
+.error {color: #f00; }
