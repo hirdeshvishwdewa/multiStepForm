@@ -12,18 +12,17 @@ These instructions will get you a copy of the project up and running on your loc
 You should have latest version of jQuery included in your page inorder to make this plugin work.
 ```
 
-##Steps for how to install and use this plugin.
+## Steps for how to install and use this plugin.
 
-###Step 1. 
+### Step 1. 
 Simply include multistep-form.js.
 
-###Step 2. 
+### Step 2. 
 Make sure you have added .tab , .previous , .next .step and .submit classes inside your `<form>` to appropriate tags. 
 
-####Simple Example:
+#### Simple Example:
 
 ```
-<pre>
 <form id="myForm" action="/register.php">
 	  <h1>Register:</h1>
 	  <!-- One "tab" for each step in the form: -->
@@ -50,10 +49,9 @@ Make sure you have added .tab , .previous , .next .step and .submit classes insi
     <span class="step">4</span>
   </div>
   </form>
-</pre>
 ```
 
-###Step 3. Simply call multiStepForm() on your form id, and thats it!
+### Step 3. Simply call multiStepForm() on your form id, and thats it!
 
 For example:
 ```
@@ -75,6 +73,6 @@ $("#myForm").multiStepForm(
 
 This project is licensed under the MIT License.
 
-##Acknowledgments
+## Acknowledgments
 
 * Inspiration form w3schools.com's multistep form example
