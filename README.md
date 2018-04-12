@@ -76,3 +76,8 @@ This project is licensed under the MIT License.
 ## Acknowledgments
 
 * Inspiration form w3schools.com's multistep form example
+
+## Demos
+
+* [Simple MultiStep](https://jsfiddle.net/hirdesh08/68krc2y0/)
+* [MultiStep with simple Validations](https://jsfiddle.net/hirdesh08/0hqpe64j/)
