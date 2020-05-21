@@ -58,7 +58,7 @@ For example:
 $("#myForm").multiStepForm(
 {
   // defaultStep:0,
-  callback : function(){
+  beforeSubmit : function(){
     console.log("save");
   }
 }
